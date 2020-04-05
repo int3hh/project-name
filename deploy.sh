@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 set -e
 
 npm run build
@@ -6,4 +8,4 @@ echo Deploying..
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:int3hh/project-name.git web
+git push -f git@github.com:int3hh/project-name.git gh-pages
